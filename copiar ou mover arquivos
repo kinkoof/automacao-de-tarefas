@@ -10,4 +10,4 @@ for nome_arquivo in os.listdir(diretorio_origem):
 
         caminho_origem = os.path.join(diretorio_origem, nome_arquivo)
         caminho_destino = os.path.join(diretorio_destino, nome_arquivo)
-        shutil.copy(caminho_origem, caminho_destino)
+        shutil.copy(caminho_origem, caminho_destino) #shutil.move(caminho_origem, caminho_destino) -- para mover arquivos
