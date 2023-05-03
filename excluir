@@ -1,0 +1,8 @@
+import os
+
+diretorio = ''
+extensao = ''
+
+for nome_arquivo in os.listdir(diretorio):
+    if nome_arquivo.endswith(extensao):
+        os.remove(os.path.join(diretorio, nome_arquivo))
